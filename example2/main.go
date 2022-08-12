@@ -1,8 +1,6 @@
 package main
 
-import (
-	"github.com/jonnyorman/firesert"
-)
+import "github.com/jonnyorman/firesert"
 
 type FirestoreDocument struct {
 	Prop1 string
