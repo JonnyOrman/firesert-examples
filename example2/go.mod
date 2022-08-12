@@ -2,7 +2,7 @@ module github.com/jonnyorman/firesert/example1
 
 go 1.18
 
-require github.com/jonnyorman/firesert v0.1.1-0.20220812111203-b251eab6d6c1
+require github.com/jonnyorman/firesert v0.1.1
 
 require (
 	cloud.google.com/go v0.100.2 // indirect
