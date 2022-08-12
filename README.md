@@ -22,8 +22,7 @@ Include the `Content-Type` header set to `application/json` and a body that look
 {
     "message": {
         "data": "ewogICAgICAgICJwcm9wMSI6ICJhYmMiLAogICAgICAgICJwcm9wMiI6IDEyMwp9"
-    },
-   "subscription": "projects/my-firesert-project/subscriptions/mysubscription"
+    }
 }
 ```
 
