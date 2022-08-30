@@ -1,9 +1,12 @@
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+*
 
-*.test
+!*.go
+!*.mod
+!*.sum
+!docker-comopse.yml
+!README.md
+!**/Dockerfile
+!firesert-config.json
+!*.env
 
-*.out
+!*/

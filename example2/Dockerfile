@@ -4,14 +4,14 @@ FROM golang:${GO_VERSION}-alpine AS builder
 
 RUN apk update && apk add alpine-sdk git && rm -rf /var/cache/apk/*
 
-COPY . /example2
+COPY . /example
 
-WORKDIR /example2
+WORKDIR /example
 
 RUN go mod download
 
-RUN go build -o ./example2 ./main.go
+RUN go build -o ./example ./main.go
 
 EXPOSE 8080
 
-ENTRYPOINT ["./example2"]
+ENTRYPOINT ["./example"]

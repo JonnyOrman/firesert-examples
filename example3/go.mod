@@ -1,4 +1,4 @@
-module github.com/jonnyorman/firesert/example1
+module github.com/jonnyorman/firesert/example3
 
 go 1.18
 

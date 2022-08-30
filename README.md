@@ -5,6 +5,8 @@ Examples demonstrating how to use [firesert](https://github.com/JonnyOrman/fires
 It contains the following examples:
 - `example1` - inserts any data received
 - `example2` - uses a struct to define the data to be inserted into Firestore
+- `example3` - config retrieved from the environment
+- `example4` - config retrieved from both the config file and the environment
 
 # How to run
 
@@ -16,6 +18,8 @@ docker-compose up --build
 To use each of the examples, `POST` to the following:
 - `example1` - `localhost:3001`
 - `example2` - `localhost:3002`
+- `example3` - `localhost:3003`
+- `example4` - `localhost:3004`
 
 Include the `Content-Type` header set to `application/json` and a body that looks like this:
 ```

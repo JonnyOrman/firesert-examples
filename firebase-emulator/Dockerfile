@@ -6,10 +6,6 @@ RUN npm config set user roo
 RUN npm i -g firebase-tools && \
     firebase -V
 
-ARG PROJECT
-
-ENV PROJECT=${PROJECT}
-
 WORKDIR firebase
 
 COPY . .

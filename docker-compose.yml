@@ -28,3 +28,28 @@ services:
       - "3002:3002"
     depends_on:
      - firebase-emulator
+  example3:
+    build:
+      context: ./example3
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3003
+      PROJECT_ID: "my-firesert-project"
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3003:3003"
+    depends_on:
+     - firebase-emulator
+  example4:
+    build:
+      context: ./example4
+    env_file:
+      - ./.env
+    environment:
+      PORT: 3004
+      COLLECTION_NAME: "MyCollection"
+    ports:
+      - "3004:3004"
+    depends_on:
+     - firebase-emulator
