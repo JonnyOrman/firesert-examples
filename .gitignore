@@ -3,10 +3,12 @@
 !*.go
 !*.mod
 !*.sum
-!docker-comopse.yml
+!docker-compose.yml
+LICENSE
 !README.md
-!**/Dockerfile
+!Dockerfile
 !firesert-config.json
 !*.env
+!firebase.json
 
 !*/
