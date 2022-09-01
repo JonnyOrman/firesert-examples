@@ -54,7 +54,7 @@ services:
     depends_on:
      - firebase-emulator
   example5:
-    image: jonnyorman/firesert:v0.2.0
+    image: jonnyorman/firesert:latest
     env_file:
       - ./.env
     environment:
